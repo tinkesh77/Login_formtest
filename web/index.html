@@ -1,0 +1,66 @@
+
+<html>
+    <head>
+        <title>Login Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <h1>Login Form</h1>
+            <form action="ResgisterServlet" method="post">
+                <table>
+                    <tr>
+                        <td>Enter Your name: </td>
+                        <td><input type="text" name="user_name" placeholder="Name*  "></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Your Password: </td>
+                        <td><input type="password" name="user_password" placeholder="Password*  "></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Your Email: </td>
+                        <td><input type="email" name="user_email" placeholder="Email*  "></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Your Gender: </td>
+                        <td><input type="radio" name="user_gender" > Male <input type="radio" name="user_gender" > Female</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Select your course
+                        </td>
+                        <td>
+                            <select name="user_course">
+                                <option value="Java">Java</option>
+                                <option value="PHP">Php</option>
+                                <option value="C/C++">C/C++</option>
+                                <option value="DSA">DSA</option>
+                            </select>
+                        </td>
+                    <tr>
+                        <td>
+                            Agree term and condition :  
+                        </td>
+                        <td>
+                            <input type="checkbox" value="checked" name="condition">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <button type="submit">Register</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </table>   
+             
+            </form>
+            
+        </div>
+    </body>
+</html>
